@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <div class="container">
+    <div class="toggle-container">
+      <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle">
+        <span class="slider"></span>
+      </label>
+      <span>🌙 Dark Mode</span>
+    </div>
+
+
+    <h1>QR CODE GENERATOR</h1>
+
+    <!-- Input with datalist-like dropdown -->
+    <div class="input-wrapper">
+      <input type="text" id="qrText" placeholder="Enter text or URL" autocomplete="off" />
+      <div id="suggestions" class="suggestions"></div>
+    </div>
+
+
+    <button onclick="generateQRCode()">Generate QR Code</button>
+
+    <div id="qrResult"></div>
+
+    <!-- Buttons below QR code -->
+    <!-- Buttons below QR code -->
+    <div class="action-buttons" id="actionButtons" style="display: none;">
+      <button onclick="downloadQRCode()">Download QR Code</button>
+      <button onclick="clearQRCode()">Clear</button>
+    </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
