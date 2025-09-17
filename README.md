@@ -23,14 +23,14 @@ A sleek and modern QR Code Generator built using HTML, CSS, and JavaScript.
 
 ---
 
-### 🪄 Light Mode  
-![Light Mode](./assets/preview-light.png)  
+### 🏠 Homepage Preview  
+![Homepage Preview](./assets/homepage-preview.png) 
 
 ### 🌙 Dark Mode  
 ![Dark Mode](./assets/preview-dark.png)  
 
-### 🏠 Homepage Preview  
-![Homepage Preview](./assets/homepage-preview.png) 
+### 🪄 Light Mode  
+![Light Mode](./assets/preview-light.png)  
 
 ---
 
